@@ -41,7 +41,8 @@ nav.navLog a{
     padding: 22px;
 }
 
-.titusec{justify-content: center;}
+.titusec{text-align: center;
+    }
 
 .elementos{
     display: flex;
