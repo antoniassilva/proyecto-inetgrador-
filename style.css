@@ -51,6 +51,13 @@ nav.navLog a{
     
 }
 
+.elementos a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
 footer{
     display: flex;
     justify-content: right;
@@ -70,6 +77,7 @@ footer{
     
     display: flex;
     padding: 22px;
+    text-align: center;
 }
 
 .imagen {
