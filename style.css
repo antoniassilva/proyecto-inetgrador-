@@ -55,3 +55,30 @@ footer{
        
 }
 
+.registrar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 22px;
+    
+}
+
+.elementosForm{
+    
+    display: flex;
+    padding: 22px;
+}
+
+.imagen {
+    max-width: 200px; 
+    max-height: 200px;
+    width: auto; 
+    height: auto; }
+
+.icono{
+    max-width: 50px; 
+    max-height: 50px;
+    width: auto; 
+    height: auto;
+}
