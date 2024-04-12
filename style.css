@@ -31,6 +31,7 @@ nav.navLog a{
     justify-content: space-around;
     flex-direction: row;
     list-style: none;
+    
 }
 
 .navegador li{
@@ -58,6 +59,7 @@ nav.navLog a{
     justify-content: space-around;
     align-items: center;
     padding: 22px;
+    border-bottom: 1px solid black;
 }
 
 .titulo{display: flex;
@@ -162,6 +164,7 @@ border-radius: 15%;}
     justify-content: center;
     align-items: center;
     margin: auto;
+    
 }
 
 .login {
