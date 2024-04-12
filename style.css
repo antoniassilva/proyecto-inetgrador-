@@ -1,5 +1,8 @@
 *{box-sizing: border-box;}
 
+body{background-color: rgb(245, 236, 162);}
+
+/* css del home */
 
 
 nav.navLog {
@@ -21,6 +24,13 @@ nav.navLog a{
     list-style: none;
 }
 
+.navegador li{
+    border-radius: 25%;
+    background-color: rgb(247, 230, 107);
+    font-size: large;
+    font-weight: bold;
+ 
+}
 .navegador a {
     color: black; 
     text-decoration: none;
@@ -28,7 +38,7 @@ nav.navLog a{
 
 .logo{
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 
@@ -41,7 +51,9 @@ nav.navLog a{
     padding: 22px;
 }
 
-.titusec{text-align: center;
+.titulo{display: flex;
+        justify-content: center;
+        
     }
 
 .elementos{
@@ -64,28 +76,12 @@ footer{
     justify-content: right;
        
 }
-
-.registrar{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    padding: 22px;
-    
-}
-
-.elementosForm{
-    
-    display: flex;
-    padding: 22px;
-    text-align: center;
-}
-
 .imagen {
     max-width: 200px; 
     max-height: 200px;
     width: auto; 
-    height: auto; }
+    height: auto;
+border-radius: 15%;}
 
 .icono{
     max-width: 50px; 
@@ -93,3 +89,116 @@ footer{
     width: auto; 
     height: auto;
 }
+
+
+/*css producto*/
+
+.contenedorProducto {
+    width: 50vw;
+    background-color:  rgb(240, 225, 10);
+    margin: auto;
+}
+
+.articleProducto {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.articleProducto section {
+    width: 50%;
+}
+
+.sectionImagen img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sectionContenido {
+    padding-left: 2.5% ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenidoDescripcion {
+    max-width: 90%;
+    text-align: justify;
+}
+
+@media (max-width: 460px) {
+
+    .contenedorProducto {
+        width: 90vw;
+    }
+
+    .articleProducto {
+        flex-direction: column;
+    }
+
+    .articleProducto section {
+        width: 100%;
+    }
+
+    .sectionContenido {
+        margin: auto 4vw;
+    }
+}
+
+/* login, registar y recuperar css */
+
+.contenedorLog {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.login {
+    width: 100%;
+    background-color:   rgb(247, 230, 107);
+}
+
+.formLog {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formLog a{
+    color: black;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-family: sans-serif;
+    
+}
+
+.formLog input {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border: none;
+    border-bottom: 1px solid #3e3e3e;
+    background-color:    rgb(247, 230, 107);
+    font-family: Verdana;
+}
+
+.formLog button {
+    font-size: large;
+    border: none;
+    background-color:  rgb(247, 230, 107);
+    padding: 0.75vh 0;
+    color: white;
+    border-radius: 4px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-family: Tahoma;
+}
+
+@media (max-width: 460px) {
+    .contenedorLog {
+        width: 90vw;
+    }
+}
+

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style.css">  
-    <link rel="stylesheet" href="../formulario.css">
+    
 </head>
 <body>
     <header>
@@ -19,6 +19,11 @@
                 </li>
             </ul>
         </nav>
+    
+        <div class="logo">
+            <img class="imagen" src="../IMG/Imagen de WhatsApp 2024-04-12 a las 11.31.11_a9ca0f92.jpg" alt="logo">
+        </div>
+    
         <nav>
             <ul class="navegador">
                 <li>
@@ -31,25 +36,24 @@
                     <a class="link" href="./category.html">Accesorios</a> 
                 </li>
                 <li>
-                    <a class="link" href="./category.html">Hombre</a>
+                    <a class="link" href="./category.html">Ropa</a>
                 </li>
-                <li>
-                    <a class="link" href="./category.html">Mujer</a>
-                </li>
-
+    
             </ul>
         </nav>
-
-        <div class="logo">
-            <h1>logo</h1>
-        </div>
+    
+    
     </header>
-    <main>
+    <main class="contenedorLog">
 
-        <article>
-            <form method="get" action="">
-                <input type="email" name="email" placeholder="Email" />
+        <article class="login">
+            <form class="formLog" method="get" action="">
+                <label for="email">Email: </label>
+                <input type="email" name="email" placeholder="ejemplo@gmail.com" />
+
+                <label for="password">Contraseña: </label>
                 <input type="password" name="contrasenia" placeholder="Contraseña" />
+
                 <a href="./recover.html">Recuperar Contraseña.</a>
                 <button type="submit">
                     Ingresar
