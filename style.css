@@ -15,10 +15,7 @@ nav.navLog {
     align-items: flex-end;
 }
 
-.logoNav{display: flex;
-        flex-direction: column;
-        justify-content: center;
-        }
+
 
 nav.navLog a{
     color: black; 
@@ -48,8 +45,13 @@ nav.navLog a{
 
 .logo{
     display: flex;
-    justify-content: start;
+    justify-content: center;
 }
+
+.imagenLogo{max-width: 250px; 
+    max-height: 250px;
+    width: auto; 
+    height: auto;}
 
 
 .contenedor{
