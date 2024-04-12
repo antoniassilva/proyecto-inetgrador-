@@ -1,6 +1,10 @@
 *{box-sizing: border-box;}
 
-body{background-color: rgb(245, 236, 162);}
+
+body {
+        background-color: rgb(245, 236, 162);
+    }
+
 
 /* css del home */
 
@@ -10,6 +14,11 @@ nav.navLog {
     flex-direction: column;
     align-items: flex-end;
 }
+
+.logoNav{display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
 
 nav.navLog a{
     color: black; 
