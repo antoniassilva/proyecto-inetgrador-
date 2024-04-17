@@ -6,16 +6,24 @@ body {
     }
 
 
-/* css del home */
+/* css del home, categoria y producto */
 
-
+   /*navegador*/
 nav.navLog {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    list-style: none;
+    
 }
 
 
+nav.navLog li {
+    list-style: none;
+    font-weight: bold;
+
+
+}
 
 nav.navLog a{
     color: black; 
@@ -42,6 +50,7 @@ nav.navLog a{
     color: black; 
     text-decoration: none;
 }
+
 
 .logo{
     display: flex;
@@ -108,7 +117,7 @@ border-radius: 15%;}
 
 .contenedorProducto {
     width: 50vw;
-    background-color:  rgb(240, 225, 10);
+    background-color:  rgb(247, 230, 107);
     margin: auto;
 }
 
@@ -119,6 +128,12 @@ border-radius: 15%;}
 
 .articleProducto section {
     width: 50%;
+}
+
+.articleProducto a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .sectionImagen img {
@@ -138,24 +153,6 @@ border-radius: 15%;}
     text-align: justify;
 }
 
-@media (max-width: 460px) {
-
-    .contenedorProducto {
-        width: 90vw;
-    }
-
-    .articleProducto {
-        flex-direction: column;
-    }
-
-    .articleProducto section {
-        width: 100%;
-    }
-
-    .sectionContenido {
-        margin: auto 4vw;
-    }
-}
 
 /* login, registar y recuperar css */
 
@@ -210,9 +207,55 @@ border-radius: 15%;}
     font-family: Tahoma;
 }
 
+/*media*/
+
 @media (max-width: 460px) {
+    
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+    }
+    .navegador{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .titulo{
+        display: flex;
+        justify-content: center;
+
+    }
+    .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+
+    }
+
     .contenedorLog {
         width: 90vw;
     }
+    .contenedorProducto {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+
+    .articleProducto {
+        flex-direction: column;
+        
+    }
+
+    .articleProducto section {
+        width: 100%;
+    }
+
+    .sectionContenido {
+        margin: auto 4vw;
+    }
 }
+
 
