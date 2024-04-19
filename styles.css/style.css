@@ -206,6 +206,14 @@ border-radius: 15%;}
     margin-bottom: 2vh;
     font-family: Tahoma;
 }
+/*css recover*/
+.contenedorLog p {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 21px;
+
+}
+    
 
 /*media*/
 
