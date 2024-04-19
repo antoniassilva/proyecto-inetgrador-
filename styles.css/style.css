@@ -31,6 +31,12 @@ nav.navLog a{
     list-style: none;
 }
 
+nav h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
 .navegador {
     display: flex;
     justify-content: space-around;
@@ -206,13 +212,15 @@ border-radius: 15%;}
     margin-bottom: 2vh;
     font-family: Tahoma;
 }
-/*css recover*/
 .contenedorLog p {
     text-align: center;
     text-decoration: underline;
     font-size: 21px;
 
 }
+
+
+
     
 
 /*media*/
@@ -230,7 +238,14 @@ border-radius: 15%;}
         flex-wrap: wrap;
 
     }
+    nav h1{
+        display: flex;
+        justify-content: center;
+    }
 
+    .navegador li{
+        margin: 15px;
+    }
     .titulo{
         display: flex;
         justify-content: center;
@@ -264,5 +279,11 @@ border-radius: 15%;}
     .sectionContenido {
         margin: auto 4vw;
     }
-    .elementos{padding: 10px;}
+    .elementos{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        padding: 10px;
+
+    }
 }
