@@ -1,6 +1,31 @@
 *{box-sizing: border-box;}
 
+/*letras*/
+.letra{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 
+  .letra2{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+
+.letraPrincipal{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 body {
         background-color: rgb(245, 236, 162);
     }
@@ -279,6 +304,7 @@ border-radius: 15%;}
     .sectionContenido {
         margin: auto 4vw;
     }
+    
     .elementos{
         display: flex;
         flex-wrap: wrap;
