@@ -20,7 +20,7 @@ fetch(`https://fakestoreapi.com/products/category/${categoria}`)
                 <p>${data[i].description}</p>
                 <p>${data[i].price}</p>
                 <a href="./cart.html"><img class="icono" src="./IMG/shopping-cart-free-png.webp" alt="carro"></a>
-                <p><a href="./detalle.html?id=${data[i].id}">Ver más</a></p>
+                <p><a href="./producto.html?id=${data[i].id}">Ver más</a></p>
             </article>
             `;
         }
