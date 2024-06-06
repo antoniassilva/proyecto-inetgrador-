@@ -5,3 +5,4 @@ logoutButton.addEventListener("click", function(event) {
 
     localStorage.removeItem("email-usuario")
 })
+

@@ -4,21 +4,21 @@
 .letra{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400; /* Reemplaza <weight> con un valor válido */
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-  }
+}
 
-  .letra2{
+.letra2{
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400; /* Reemplaza <weight> con un valor válido */
     font-style: normal;
     font-variation-settings:
       "wdth" 100,
       "YTLC" 500;
-  }
+}
 
 .letraPrincipal{
   font-family: "Oswald", sans-serif;
