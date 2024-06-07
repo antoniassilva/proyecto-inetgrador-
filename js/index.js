@@ -15,7 +15,6 @@ fetch('https://fakestoreapi.com/products/category/electronics')
                 <img class="imagen" src="${data[i].image}" alt="compu">
                 <p>${data[i].description}</p>
                 <p>${data[i].price}</p>
-                <a href="./cart.html"><img class="icono" src="./IMG/shopping-cart-free-png.webp" alt="carro"></a>
                 <p><a href="./producto.html?id=${data[i].id}">Ver más</a></p>
             </article>
             `;
@@ -48,7 +47,6 @@ fetch('https://fakestoreapi.com/products/category/electronics')
                 <img class="imagen" src="${data[i].image}" alt="aros">
                 <p>${data[i].description}</p>
                 <p>${data[i].price}</p>
-                <a href="./cart.html"><img class="icono" src="./IMG/shopping-cart-free-png.webp" alt="carro"></a>
                 <p><a href="./producto.html?id=${data[i].id}">Ver más</a></p>
             </article>
             `;
@@ -79,7 +77,6 @@ fetch("https://fakestoreapi.com/products/category/women's clothing")
                 <img class="imagen" src="${data[i].image}" alt="aros">
                 <p>${data[i].description}</p>
                 <p>${data[i].price}</p>
-                <a href="./cart.html"><img class="icono" src="./IMG/shopping-cart-free-png.webp" alt="carro"></a>
                 <p><a href="./producto.html?id=${data[i].id}">Ver más</a></p>
             </article>
             `;
