@@ -29,7 +29,6 @@ fetch('https://fakestoreapi.com/products/category/electronics')
 
 
     //////////// joyas
-
     fetch('https://fakestoreapi.com/products/category/jewelery')
     .then(function(res) {
         return res.json();
