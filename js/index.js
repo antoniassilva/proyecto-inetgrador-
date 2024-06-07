@@ -60,7 +60,7 @@ fetch('https://fakestoreapi.com/products/category/electronics')
 
 
     ///////////// ropa
-fetch("https://fakestoreapi.com/products/category/women's clothing")
+    fetch("https://fakestoreapi.com/products/category/women's clothing")
     .then(function(res) {
         return res.json();
     })
