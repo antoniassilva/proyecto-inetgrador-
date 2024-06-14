@@ -48,14 +48,9 @@
     <article class="login">
         <form class="formLog" method="get" action="">
             <label for="email">Email:</label>
-            <input type="email" name="email" value="" placeholder="ejemplo@gmail.com">
-
-            <label for="password">Contraseña nueva</label>
-            <input type="password" name="password" value="" placeholder="Crea tu contraseña">
-
-            <label for="password">Repetir contraseña</label>
-            <input type="password" name="password" value="" placeholder="Repita la contraseña nueva">
-
+            <input id="email" type="email" name="email" value="" placeholder="ejemplo@gmail.com">
+            <label>Quiero recuperar mi contrasenia: </label>
+                <input id="terminos" type="radio" name="asistencia" value="no">
             <button type="submit">Recuperar</button>
         </form>
 
@@ -68,5 +63,6 @@
 </footer>
 <script src="./js/saludo.js"></script>
 <script src="./js/logout.js"></script>
+<script src="./js/recover.js"></script>
 </body>
 </html>
