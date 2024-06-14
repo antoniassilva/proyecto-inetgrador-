@@ -11,7 +11,7 @@ formulario.addEventListener('submit', function(event) {
         alert("Por favor complete el campo correo!");
     } 
     
-    else if (!campoTerminos.checked) {
+    else if (campoTerminos.value == "no") {
         alert("Acepte los términos y condiciones");
     } 
     else {

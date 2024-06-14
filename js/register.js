@@ -4,6 +4,8 @@ let campoRepe = document.querySelector('#repe');
 let campoTerminos = document.querySelector('#terminos');
 
 let formulario = document.querySelector('form');
+console.log(campoTerminos)
+
 
 formulario.addEventListener('submit', function(event) {
     event.preventDefault(); 
@@ -20,7 +22,7 @@ formulario.addEventListener('submit', function(event) {
     else if (campoRepe.value !== campoContra.value) {
         alert("Las Contraseñas no coinciden!");
     } 
-    else if (!campoTerminos.checked) {
+    else if (campoTerminos.value == "no") {
         alert("Acepte los términos y condiciones");
     } 
     else {
