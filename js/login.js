@@ -1,36 +1,37 @@
-let button = document.querySelector("button");
+let campoEmail = document.querySelector('#email');
+let campoContra = document.querySelector('#contra');
 
-button.addEventListener('click', function (event) {
-    event.preventDefault();
 
-    let inputEmail = document.querySelector("#input-email");
-    let inputPassword = document.querySelector("#input-password");
 
-    let contador = 0;
+let formulario = document.querySelector('form');
 
-    let correo = inputEmail.value;
-    
-    if (correo === "") {
-        alert("Por favor complete el campo correo!")
-        contador++ 
+
+
+formulario.addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    let correo = campoEmail.value;
+
+    if (campoEmail.value === '') {
+        alert("Por favor complete el campo correo!");
     } 
-
-    let contrasenia = inputPassword.value;
-
-    if (contrasenia === "") {
-        alert("Por favor complete el campo contraseña!")
-        contador++ 
-    } else if (contrasenia.length < 6) {
+    else if (campoContra.value === '') {
+        alert("Por favor complete el campo contraseña!");
+    } 
+    else if (campoContra.value.length < 6) {
         alert("La contraseña debe tener por lo menos 6 caracteres!")
-        contador++ 
+       
     }
 
-    if (contador === 0) { 
+
+    else {
         localStorage.setItem("email-usuario", correo)
-        document.querySelector("form").submit()
+        formulario.submit(); 
+        
     }
+});
 
-})
+
+
 
 //////navegador 
 fetch("https://fakestoreapi.com/products/categories")
